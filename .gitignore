@@ -29968,4 +29968,4 @@ frontend/node_modules/@heroicons/react/24/outline/ChartPieIcon.js
 frontend/node_modules/@heroicons/react/24/outline/ChatBubbleBottomCenterIcon.js
 frontend/node_modules/@heroicons/react/24/outline/ChatBubbleBottomCenterTextIcon.js
 frontend/node_modules/@heroicons/react/24/outline/ChatBubbleLeftEllipsisIcon.js
-frontend/src/firebase.js
+frontend/src/.env
