@@ -1,0 +1,9 @@
+.ul1 li link{
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.ul1 li p:hover{
+    font-size: 18px;   
+}

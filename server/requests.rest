@@ -1,0 +1,21 @@
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2U3MDg5MWQ2MjVmMjViNjFlZmExYiIsImlhdCI6MTcyMDE2MTY2NX0.DhXYVt_dyG0hTdOuI5Tgp2SljLNUNW5boAU-jCnLP78
+POST  http://localhost:3000/get-blog 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2U3MDg5MWQ2MjVmMjViNjFlZmExYiIsImlhdCI6MTcyMDE2MTY2NX0.DhXYVt_dyG0hTdOuI5Tgp2SljLNUNW5boAU-jCnLP78
+
+# {   "name": "aryan",
+#     "email": "aryantiwar2003@gmail.com",
+#     "password": "Aryan12"
+#     "blog_id" : "Kashmir%20a%20heaven%20on%20EarthXXBQcZWNSmFIeUJ8hdRZK",
+#     "title": "hey mama how are you",
+#     "des": "haha",
+#     "banner" : "no",   "blog_id" : "NOOOO_jQgBqiJ-nPMbIfhAzz3Y"
+
+
+{
+
+
+     "blog_id" : "NOOOO_jQgBqiJ-nPMbIfhAzz3Y",
+     "title": "hey mama how are you",
+     "des": "haha",
+     "banner" : "no",  
+}
