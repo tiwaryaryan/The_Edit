@@ -13,7 +13,7 @@ const Login = () => {
 
   // Sending request to server  
   const login_server = (details) => {
-    axios.post('http://localhost:3000/login', details)
+    axios.post('https://the-edit.onrender.com/login', details)
       .then(({ data }) => {
         storeInSession("user", JSON.stringify(data));
         toast.success("Logging in");

@@ -1,5 +1,5 @@
 #eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2U3MDg5MWQ2MjVmMjViNjFlZmExYiIsImlhdCI6MTcyMDE2MTY2NX0.DhXYVt_dyG0hTdOuI5Tgp2SljLNUNW5boAU-jCnLP78
-POST  http://localhost:3000/get-blog 
+POST  https://the-edit.onrender.com/get-blog 
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2U3MDg5MWQ2MjVmMjViNjFlZmExYiIsImlhdCI6MTcyMDE2MTY2NX0.DhXYVt_dyG0hTdOuI5Tgp2SljLNUNW5boAU-jCnLP78
 
 # {   "name": "aryan",

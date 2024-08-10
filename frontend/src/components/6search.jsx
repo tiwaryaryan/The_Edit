@@ -34,7 +34,7 @@ const home = () => {
 
     const fetchtagblogs = () => {
 
-        axios.post("http://localhost:3000/trend-card", { query: query })
+        axios.post("https://the-edit.onrender.com/trend-card", { query: query })
             .then(({ data }) => {
                 // console.log(query);
                 //console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
@@ -52,7 +52,7 @@ const home = () => {
 
     const fetchusers = () => {
 
-        axios.post("http://localhost:3000/search-user", { query: query })
+        axios.post("https://the-edit.onrender.com/search-user", { query: query })
             .then(({ data }) => {
                 //console.log(data.users);   //for getting something in . like data.blog you need to pass it in like obj {data}
                 setUserinfo(data.users)

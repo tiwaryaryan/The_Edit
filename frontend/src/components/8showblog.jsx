@@ -49,7 +49,7 @@ const BlogPage = () => {
 
     const fetchBlog = () => {
 
-        axios.post("http://localhost:3000/get-blog", { blog_id })
+        axios.post("https://the-edit.onrender.com/get-blog", { blog_id })
             .then(({ data: { blog } }) => {
                 //console.log({ blog });
                 setBlog(blog);
@@ -60,7 +60,7 @@ const BlogPage = () => {
     };
 
     // const deleteBlog = () => {
-    //     axios.delete('http://localhost:3000/delete-blog', { 
+    //     axios.delete('https://the-edit.onrender.com/delete-blog', { 
     //         headers: {
     //             'Authorization': `Bearer ${access_token}`
     //         },
@@ -81,7 +81,7 @@ const BlogPage = () => {
     // };
 
     const deleteBlog = (blog_id) => {
-        axios.delete("http://localhost:3000/delete-blog" , {blog_id})
+        axios.delete("https://the-edit.onrender.com/delete-blog" , {blog_id})
         .then(({ data }) => {
             //toast.success("Deleted successfully!");
             navigate("/");
@@ -100,7 +100,7 @@ const BlogPage = () => {
         
         if (access_token) {
             console.log("hehe");
-            axios.post("http://localhost:3000/isliked-by-user", { _id }, {
+            axios.post("https://the-edit.onrender.com/isliked-by-user", { _id }, {
               headers: {
                 'Authorization': `Bearer ${access_token}`
               }
@@ -148,7 +148,7 @@ const BlogPage = () => {
                     }
                 }));
 
-                axios.post("http://localhost:3000/like-blog", {
+                axios.post("https://the-edit.onrender.com/like-blog", {
                     _id, islike: newIsLike
                 }, {
                     headers: {

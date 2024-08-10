@@ -11,7 +11,7 @@ const Signup = () => {
 
     // Sending request to server
     const signup_server = (details) => {
-        axios.post('http://localhost:3000/signup', details)
+        axios.post('https://the-edit.onrender.com/signup', details)
             .then(({ data }) => {
                 toast.success("Account created");
                 storeInSession("user", JSON.stringify(data));
@@ -127,7 +127,7 @@ export default Signup;
 //     //sending req to server
 //     const signup_server = (details) => {
 
-//         axios.post('http://localhost:3000/signup' , details)
+//         axios.post('https://the-edit.onrender.com/signup' , details)
 //         .then(( {data} ) => {
 
 //             toast.success("Account created");

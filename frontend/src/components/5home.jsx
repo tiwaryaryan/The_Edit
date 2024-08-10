@@ -21,7 +21,7 @@
 
 
 //     const homeblog = () => {
-//         axios.get("http://localhost:3000/home-blog")
+//         axios.get("https://the-edit.onrender.com/home-blog")
 //         .then(({data}) => {
 //             //console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
 //             setBlogs(data.blogs)
@@ -32,7 +32,7 @@
 //     }
 
 //     const trendingblog = () => {
-//         axios.get("http://localhost:3000/trending-blog")
+//         axios.get("https://the-edit.onrender.com/trending-blog")
 //         .then(({data}) => {
 //             console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
 //             settrendBlogs(data.blogs)
@@ -132,7 +132,7 @@ const home = () => {
     let { userAuth, userAuth: { access_token}, setuserAuth } = useContext(usercontext);
 
     const homeblog = () => {
-        axios.get("http://localhost:3000/home-blog")
+        axios.get("https://the-edit.onrender.com/home-blog")
             .then(({ data }) => {
                 //console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
                 setBlogs(data.blogs)
@@ -143,7 +143,7 @@ const home = () => {
     }
 
     const trendingblog = () => {
-        axios.get("http://localhost:3000/trending-blog")
+        axios.get("https://the-edit.onrender.com/trending-blog")
             .then(({ data }) => {
                 //console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
                 settrendBlogs(data.blogs)
@@ -168,7 +168,7 @@ const home = () => {
 
     const fetchtagblogs = () =>{
 
-        axios.post("http://localhost:3000/trend-card" , {tag: pagestate})
+        axios.post("https://the-edit.onrender.com/trend-card" , {tag: pagestate})
             .then(({ data }) => {
                 //console.log(data.blogs);   //for getting something in . like data.blog you need to pass it in like obj {data}
                 setBlogs(data.blogs)

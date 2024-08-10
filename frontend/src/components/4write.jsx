@@ -43,7 +43,7 @@ const Write = () => {
     }, [blog_id]);
 
     const fetchBlog = () => {
-        axios.post("http://localhost:3000/get-blog", { blog_id, mode: "edit" })
+        axios.post("https://the-edit.onrender.com/get-blog", { blog_id, mode: "edit" })
             .then(({ data: { blog } }) => {
                 setBlogStructure(blog);
                 setImagefileurl(blog.banner);
@@ -63,7 +63,7 @@ const Write = () => {
         //let loadtoast = toast.loading("Uplaoding...");
         console.log("blogstructure banner: " , blogStructure.banner);
 
-        axios.post('http://localhost:3000/create-blog', { ...blogStructure, id: blog_id }, {
+        axios.post('https://the-edit.onrender.com/create-blog', { ...blogStructure, id: blog_id }, {
             headers: {
                 'Authorization': `Bearer ${access_token}`
             }
@@ -321,7 +321,7 @@ export default Write;
 //     }, [blog_id]);
 
 //     const fetchBlog = () => {
-//         axios.post("http://localhost:3000/get-blog", { blog_id, mode: "edit" })
+//         axios.post("https://the-edit.onrender.com/get-blog", { blog_id, mode: "edit" })
 //             .then(({ data: { blog } }) => {
 //                 setBlogStructure(blog);
 //                 setImagefileurl(blog.banner); // Set the existing banner URL
@@ -333,7 +333,7 @@ export default Write;
 
 //     const blog_server = (blogStructure) => {
 //         let loadtoast = toast.loading("Uploading...");
-//         axios.post('http://localhost:3000/create-blog', blogStructure, {id: blog_id}, {
+//         axios.post('https://the-edit.onrender.com/create-blog', blogStructure, {id: blog_id}, {
 //             headers: {
 //                 'Authorization': `Bearer ${access_token}`
 //             }

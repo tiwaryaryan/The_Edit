@@ -36,7 +36,7 @@ const profile = () => {
     let {userAuth: {username}} = useContext(usercontext); //this is giving the username of logedin profile
 
     const fetchUserProfile = () => {
-        axios.post("http://localhost:3000/get-profile", { username: profileId })
+        axios.post("https://the-edit.onrender.com/get-profile", { username: profileId })
             .then(({ data: user }) => {
                 console.log(user);
                 setProfile(user);
