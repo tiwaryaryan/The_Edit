@@ -201,7 +201,7 @@ const Navbar = () => {
     return (
 
 
-        // access_token ?
+         access_token ?
 
 
         <nav className="navbar flex items-center p-4 bg-white shadow-md relative">
@@ -261,7 +261,7 @@ const Navbar = () => {
             )}
         </nav>
 
-         //: <Navigate to = "/login" />   //if acess token if not there you can never see the navbar even if try from browser (!! do this in home write and other pages)
+         : <Navigate to = "/login" />   //if acess token if not there you can never see the navbar even if try from browser (!! do this in home write and other pages)
     );
 }
 
