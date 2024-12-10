@@ -232,7 +232,7 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center gap-3 absolute right-[120px]">
 
                     <Write />
-                    <Noti />
+                    
 
                 </div>
 
