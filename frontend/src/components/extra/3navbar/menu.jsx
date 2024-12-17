@@ -24,14 +24,14 @@ const logo = (props) => {
                         </li>
 
                         
-                        <li>
+{/*                         <li>
                         <Link to="/dashboard/notification" className="w-full py-2">
                         <button className="w-full flex items-center">
                             <i className="fi fi-rr-bell text-2xl block mt-1"></i>
                             <p className="ml-2 w-full">Notifications</p>
                         </button>
                         </Link>
-                        </li>
+                        </li> */}
 
 
                         <li>
